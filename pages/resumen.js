@@ -3,7 +3,7 @@ import useQuiosco from "@/hook/useQuiosco";
 import Layout from "@/layout/Layout";
 
 
-export default function resume() {
+export default function Resumen() {
     const {pedido} = useQuiosco();
     return(
         <Layout pagina='Resumen'>
